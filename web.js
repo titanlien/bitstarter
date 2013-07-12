@@ -1,4 +1,5 @@
 var express = require('express');
+var fs = require('fs');
 
 var indexBuf = fs.readFileSync('index.html', 'utf8');
 
